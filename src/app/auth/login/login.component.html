@@ -11,7 +11,7 @@
       <form
         class="form-horizontal form-material"
         id="loginform"
-        action="index.html"
+        (click)="submitLogin()"
       >
         <a href="javascript:void(0)" class="text-center db"
           ><img src="./assets/images/logo-icon.png" alt="Home" /><br /><img
@@ -91,7 +91,7 @@
         <div class="form-group m-b-0">
           <div class="col-sm-12 text-center">
             ¿No tiene una cuenta?
-            <a routerLink="/dashboard" class="text-primary m-l-5"
+            <a routerLink = "/register" class="text-primary m-l-5"
               ><b>Únete</b></a
             >
           </div>

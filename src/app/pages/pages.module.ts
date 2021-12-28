@@ -7,6 +7,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { RouterModule } from '@angular/router';
+import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
 
 
 
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AcountSettingsComponent
   ],
 
   /* exportamos los components */
@@ -23,7 +25,9 @@ import { RouterModule } from '@angular/router';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AcountSettingsComponent
+
   ],
 
   imports: [
