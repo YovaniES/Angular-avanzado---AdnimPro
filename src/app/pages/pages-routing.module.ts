@@ -9,10 +9,10 @@ import { ProgressComponent } from './progress/progress.component';
 const routes: Routes = [
   { path:'dashboard', component:PagesComponent,
     children:[
-      {path:'', component:DashboardComponent},
-      {path:'progress',component:ProgressComponent},
-      {path:'graficas1', component:Grafica1Component},
-      {path:'account-settings', component:AcountSettingsComponent}
+      {path:'', component:DashboardComponent, data:{titulo:'Dashboard!'}},
+      {path:'progress',component:ProgressComponent, data:{titulo:'ProgressBar'}},
+      {path:'graficas1', component:Grafica1Component, data:{titulo:'Graficas #1'}},
+      {path:'account-settings', component:AcountSettingsComponent, data:{titulo:'Ajustes de cuenta'}}
     ] },
 ];
 
