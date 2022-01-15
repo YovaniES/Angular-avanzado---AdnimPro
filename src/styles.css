@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 
-/* en acount-settings en la clase selector */
-#themecolors .selector{
+/* en acount-settings en la clase selector y en el logout() del header */
+#themecolors .selector, .cursor{
   cursor: pointer;
 }
